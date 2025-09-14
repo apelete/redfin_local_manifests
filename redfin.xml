@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--Remotes-->
+    <remote name="los"       fetch="https://github.com/LineageOS"        revision="lineage-23.0" />
+    <remote name="muppets"   fetch="https://github.com/TheMuppets"       revision="lineage-23.0" />
+    <remote name="gh"        fetch="https://github.com/apelete"          revision="lineage-23.0" />
+
+    <!--Devices Trees-->
+    <project name="android_device_google_gs-common"       path="device/google/gs-common"    remote="los" />
+    <project name="android_device_google_redbull"         path="device/google/redbull"      remote="los" />
+    <project name="android_device_google_redfin"          path="device/google/redfin"       remote="los" />
+
+    <!--Vendors Tree-->
+    <project name="proprietary_vendor_google_redfin"      path="vendor/google/redfin"       remote="muppets" />
+
+    <!--Kernel Tree-->
+    <project name="android_kernel_google_redbull"         path="kernel/google/redbull"      remote="los" />
+</manifest>
